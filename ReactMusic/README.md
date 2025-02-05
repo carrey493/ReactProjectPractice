@@ -46,3 +46,14 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 1.使用 create-react-app --template typescript 创建项目
+
+2.项目配置
+
+1.  配置项目 icon:public->favicon.icon
+2.  配置项目标题:public->index.html->title
+3.  配置别名
+    1.  使用 craco: create react app config
+    2.  安装 craco：npm i @craco/craco@alpha -D
+    3.  新建 craco.config.js 进行相关内容配置
+    4.  修改 tsconfig.ts 中的相关配置：见代码提交记录
+    5.  修改 package.json 中的相关配置：见代码提交记录
