@@ -45,6 +45,8 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+学习地址：https://www.bilibili.com/video/BV1x9rUYxEhL
+
 Node版本：18.14
 
 构建工具：Webpack
@@ -72,4 +74,4 @@ Node版本：18.14
         3.  react
         4.  typescript
         5.  brower
-    2.
+    2.  npm i eslint-plugin-prettier eslint-config-prettier -D
