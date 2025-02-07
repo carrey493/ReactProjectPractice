@@ -61,3 +61,15 @@ Node版本：18.14
     3.  新建 craco.config.js 进行相关内容配置
     4.  修改 tsconfig.ts 中的相关配置：见代码提交记录
     5.  修改 package.json 中的相关配置：见代码提交记录
+4.  配置prettier：npm i prettier - D
+    1.  新建相关文件进行补充修改
+    2.  package.json中新增 "prettier": "prettier --write ." 指令
+    3.  配置 ignore 文件进行代码全部格式化
+5.  配置eslint：npm i eslint - D
+    1.  npx eslint --init
+        1.  problems
+        2.  esm
+        3.  react
+        4.  typescript
+        5.  brower
+    2.
