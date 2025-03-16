@@ -20,6 +20,7 @@ module.exports = {
   plugins: ['react', '@typescript-eslint'],
   rules: {
     '@typescript-eslint/no-unused-requires': 'off',
+    '@typescript-eslint/no-var-requires': 'off', // 禁用 no-var-requires 规则
     'prettier/prettier': ['error', { endOfLine: 'auto' }]
   }
 }
